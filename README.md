@@ -64,6 +64,8 @@ In the second phase, the trained neural model is then deployed to capture real-t
 
 ## Results and Conclusion
 
+The models are trained using 10k image samples, validated on 8k image samples and tested on 992 image samples. The models are trained with 10 epochs using learning rate of 1e-3.
+
 <p float="center">
   <img src="111.png" width="300" />
   <img src="112.png" width="300" />
@@ -74,8 +76,7 @@ In the second phase, the trained neural model is then deployed to capture real-t
 <p>Figure 5: Loss, Accuracy, Predictions on Test Data using Model-1</p>
 </div>
 
-[[508, 1]
-[42, 441]]
+The accuarcy of Model-1 on the validation dataset is 0.99 and validation loss is 0.02. The accuracy on the test dataset is 0.96. The true positives of the model are 508, true negative is 441. False positive is 1 false negative is 42. From Figure 6, the accuracy remained stable after epoch 7. 
 
 <p float="center">
   <img src="221.png" width="300" />
@@ -87,8 +88,7 @@ In the second phase, the trained neural model is then deployed to capture real-t
 <p>Figure 6: Loss, Accuracy, Predictions on Test Data using Model-2</p>
 </div>
 
-
-
+The accuarcy of Model-2 on the validation dataset is 0.98 and validation loss is 0.04. The accuracy on the test dataset is 0.90. The true positive of the model are 420, true negative is 474. False positive is 89 and false negative is 9. The flase positives obtained from this model are higher when compared to previous model. From which we can conclude that Model-1 performed better than Model-2.
 
 <p float="center">
   <img src="331.png" width="300" />
@@ -100,8 +100,7 @@ In the second phase, the trained neural model is then deployed to capture real-t
 <p>Figure 7: Loss, Accuracy, Predictions on Test Data using Model-3</p>
 </div>
 
-
-
+The accuarcy of Model-3 on the validation dataset is 0.99 and validation loss is 0.02. The accuracy on the test dataset is 0.97. The true positives of the model are 480, true negatives are 483. False positive are 29 and false negatives are 0. When Model-1 and Model-3 are compared, the accuracy of Model-1 is less than Model-3, but Model-1 has less false positives as compared to Model-2. So, it can be concluded Model-1 has performed comparitively better than Model-3.
 
 ## References
 
