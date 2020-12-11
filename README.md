@@ -75,7 +75,7 @@ In the second phase, the trained neural model is then deployed to capture real-t
 </p>
 
 <div align="center">
-<p>Figure 5: Loss, Accuracy, Predictions on Test Data</p>
+<p>Figure 5: Loss, Accuracy, Predictions on Test Data using Model-1</p>
 </div>
 
 <p float="center">
@@ -85,7 +85,7 @@ In the second phase, the trained neural model is then deployed to capture real-t
 </p>
 
 <div align="center">
-<p>Figure 6: Loss, Accuracy, Predictions on Test Data</p>
+<p>Figure 6: Loss, Accuracy, Predictions on Test Data using Model-2</p>
 </div>
 
 <p float="center">
@@ -95,7 +95,7 @@ In the second phase, the trained neural model is then deployed to capture real-t
 </p>
 
 <div align="center">
-<p>Figure 7: Loss, Accuracy, Predictions on Test Data</p>
+<p>Figure 7: Loss, Accuracy, Predictions on Test Data using Model-3</p>
 </div>
 
 ## References
