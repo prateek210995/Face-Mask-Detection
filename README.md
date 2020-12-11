@@ -15,3 +15,48 @@ A hybrid deep transfer learning model with machine learning models is built to d
 Face Mask Dataset is taken from the Kaggle site. The dataset consists of images of people with mask or without mask. It has around 12,000 images. The images are grouped into test, train, and validation folders. Each folder contains images which are further grouped into WithMask and WithoutMask.
 
 Data source can be found ![**here**.](https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset)
+
+Sample Dataset: 
+----Image----
+## Convolutional Neural Network (CNN)
+
+Convolutional Neural Network (CNN) is a deep learning algorithm which is applied to visualize the images. CNNs are more of a regularized class of multilayer perceptrons. CNNs are specialized type of neural networks that employs convolution operations instead of matrix multiplication at least in one CNN’s layers. CNN consists of input, output, and hidden layer. The hidden layer consists of convolutional layer that convolves either multiplication or dot product. The input image given to CNN is assigned weights and biases to different aspects of input, based on which network can make differentiations one from another. The major role of ConvNet is to reduce the image size into a shape that is easy to process, without the loss of image critical features for making better prediction. Every neuron in one layer is connected to every neuron in another layer in a fully connected layer. CNN is basically designed to work with two-dimensional image data, although it can be used with one- and three-dimensional images.
+
+## OpenCV
+
+OpenCV (Open Source Computer Vision) is a computer vision and machine learning library which is freely available. It is built to offer basic computer Vision applications and to elevate the usage of machine learning in commercial outcomes. It is written in C++ language and its interface is in C++. OpenCV is used for the analysis of images and videos like reading license plate, face recognition and identification, advanced robotic vision, editing photo and many more. This library runs on various operating systems like Linux, OpenBSD, macOS, Windows, NetBSD, FreeBSD.
+
+## System Architecture
+
+### Model-1:
+
+---Image---
+
+In the first phase, Model-1 is trained on face mask image dataset using a single convolutional neural layer. The image data is preprocessed by transforming it to tensors and then performed normalization before feeding neural model. The processed data passed to convolutional layer creates feature map that summarizes detected features in the input. BatchNorm2D calculates mean and variance of input features and does normalization. Further, outputs are passed through Rectified Linear Unit (ReLU) activation function. It is the most used activation function. ReLU helps neural model to learn faster and perform better by overcoming the problem of vanishing gradient. This function allows model to account for non-linearities and interactions. And then it is passed through MaxPool2D layer. This layer takes the maximum value over window defined with pool size for individual dimension along with the feature axis. Next, output of MaxPool2D layer is parsed through fully connected neural layer consisting of flatten, linear and ReLU layer. This layer flattens and applies weights outputting probabilities that determines whether the input image is WithMask or WithoutMask. 
+
+In the second phase, the trained neural model is then deployed to capture real-time video and make analysis using OpenCV which is a computer vision and machine learning library. Here, the video is analyzed to detect if a person is wearing mask or not.
+
+### Model-2:
+
+---Image---
+
+Model-2 follows the same training and real-time video detection steps as Model-1. Model-2 consists of four convolutional layers, four ReLU layers, two max pooling layers, and a fully connected neural layer. This model is built without BatchNorm2D layer.
+
+### Model-3:
+
+---Image---
+
+Similarly, Model-3 has the same procedural steps as Model-1 and Model-2. However, it is built with six convolutional layers, six BatchNorm2D layers, two ReLU layers, two max pooling layers and a fully connected neural layer.
+
+## Best Performing Model
+
+## Other Models
+
+## Results and Conclusion
+
+## References
+
+[1] Chavda, Amit & Dsouza, Jason & Badgujar, Sumeet & Damani, Ankit. (2020). Multi-Stage CNN Architecture for Face Mask Detection.
+[2] T. Meenpal, A. Balakrishnan and A. Verma, "Facial Mask Detection using Semantic Segmentation," 2019 4th International Conference on Computing, Communications and Security (ICCCS), Rome, Italy, 2019, pp. 1-5, doi: 10.1109/CCCS.2019.8888092.
+[3] Loey, M., Manogaran, G., Taha, M., & Khalifa, N. (2021). A hybrid deep transfer learning model with machine learning methods for face mask detection in the era of the COVID-19 pandemic. Measurement : journal of the International Measurement Confederation, 167, 108288. https://doi.org/10.1016/j.measurement.2020.108288
+[4] M. S. Ejaz, M. R. Islam, M. Sifatullah and A. Sarker, "Implementation of Principal Component Analysis on Masked and Non-masked Face Recognition," 2019 1st International Conference on Advances in Science, Engineering and Robotics Technology (ICASERT), Dhaka, Bangladesh, 2019, pp. 1-5, doi: 10.1109/ICASERT.2019.8934543.
