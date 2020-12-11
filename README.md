@@ -30,7 +30,7 @@ OpenCV (Open Source Computer Vision) is a computer vision and machine learning l
 
 ### Model-1:
 
-![](Face-Mask-Detection/Model%201.png)
+![model1](Face-Mask-Detection/Model 1.png)
 
 In the first phase, Model-1 is trained on face mask image dataset using a single convolutional neural layer. The image data is preprocessed by transforming it to tensors and then performed normalization before feeding neural model. The processed data passed to convolutional layer creates feature map that summarizes detected features in the input. BatchNorm2D calculates mean and variance of input features and does normalization. Further, outputs are passed through Rectified Linear Unit (ReLU) activation function. It is the most used activation function. ReLU helps neural model to learn faster and perform better by overcoming the problem of vanishing gradient. This function allows model to account for non-linearities and interactions. And then it is passed through MaxPool2D layer. This layer takes the maximum value over window defined with pool size for individual dimension along with the feature axis. Next, output of MaxPool2D layer is parsed through fully connected neural layer consisting of flatten, linear and ReLU layer. This layer flattens and applies weights outputting probabilities that determines whether the input image is WithMask or WithoutMask. 
 
