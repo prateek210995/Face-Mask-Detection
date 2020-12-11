@@ -82,15 +82,21 @@ In the second phase, the trained neural model is then deployed to capture real-t
   <img src="221.png" width="300" />
   <img src="222.png" width="300" />
   <img src="223.png" width="300" />
-  <p>Figure 6: Loss, Accuracy, Predictions on Test Data</p>
 </p>
+
+<div align="center">
+<p>Figure 6: Loss, Accuracy, Predictions on Test Data</p>
+</div>
 
 <p float="center">
   <img src="331.png" width="300" />
   <img src="332.png" width="300" />
   <img src="333.png" width="300" />
-  <p>Figure 7: Loss, Accuracy, Predictions on Test Data</p>
 </p>
+
+<div align="center">
+<p>Figure 7: Loss, Accuracy, Predictions on Test Data</p>
+</div>
 
 ## References
 
