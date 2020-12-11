@@ -14,7 +14,7 @@ A hybrid deep transfer learning model with machine learning models is built to d
 
 Face Mask Dataset is taken from the Kaggle site. The dataset consists of images of people with mask or without mask. It has around 12,000 images. The images are grouped into test, train, and validation folders. Each folder contains images which are further grouped into WithMask and WithoutMask.
 
-Data source can be found [**here**.](https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset)
+Dataset can be found [**here**.](https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset)
 
 Sample Dataset: 
 
