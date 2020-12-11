@@ -72,55 +72,22 @@ In the second phase, the trained neural model is then deployed to capture real-t
   <img src="111.png" width="300" />
   <img src="112.png" width="300" />
   <img src="113.png" width="300" />
-  <p>Figure 5: </p>
+  <p>Figure 5: Loss, Accuracy, Predictions on Test Data</p>
 </p>
 
+<p float="center">
+  <img src="221.png" width="300" />
+  <img src="222.png" width="300" />
+  <img src="223.png" width="300" />
+  <p>Figure 6: Loss, Accuracy, Predictions on Test Data</p>
+</p>
 
-<div align="center">
-<img src=111.png>
-<p>Figure 5: </p>
-</div>
-
-<div align="center">
-<img src=112.png>
-<p>Figure 6: </p>
-</div>
-
-<div align="center">
-<img src=113.png>
-<p>Figure 7: </p>
-</div>
-
-<div align="center">
-<img src=221.png>
-<p>Figure 8: </p>
-</div>
-
-<div align="center">
-<img src=222.png>
-<p>Figure 9: </p>
-</div>
-
-<div align="center">
-<img src=223.png>
-<p>Figure 10: </p>
-</div>
-
-<div align="center">
-<img src=331.png>
-<p>Figure 11: </p>
-</div>
-
-<div align="center">
-<img src=332.png>
-<p>Figure 12: </p>
-</div>
-
-<div align="center">
-<img src=333.png>
-<p>Figure 13: </p>
-</div>
-
+<p float="center">
+  <img src="331.png" width="300" />
+  <img src="332.png" width="300" />
+  <img src="333.png" width="300" />
+  <p>Figure 7: Loss, Accuracy, Predictions on Test Data</p>
+</p>
 
 ## References
 
