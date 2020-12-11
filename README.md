@@ -107,6 +107,10 @@ The accuarcy of Model-3 on the validation dataset is 0.99 and validation loss is
 
 Model-2 and Model-3 are complex models and have more number of neural layers. Whereas, Model-1 is the simplest with a single convolutional layer. So, it can be concluded that to achive best accuracy it is not always the case that complex models give best results.  Model-1 is the best performing model.
 
+<p float="center">
+  <img src="MaskDetect.gif" width="300" />
+</p>
+
 ## References
 
 [1] Chavda, Amit & Dsouza, Jason & Badgujar, Sumeet & Damani, Ankit. (2020). Multi-Stage CNN Architecture for Face Mask Detection.
