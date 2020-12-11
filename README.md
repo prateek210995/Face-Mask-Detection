@@ -116,3 +116,5 @@ Model-2 and Model-3 are complex models and have more number of neural layers. Wh
 [3] Loey, M., Manogaran, G., Taha, M., & Khalifa, N. (2021). A hybrid deep transfer learning model with machine learning methods for face mask detection in the era of the COVID-19 pandemic. Measurement : journal of the International Measurement Confederation, 167, 108288. https://doi.org/10.1016/j.measurement.2020.108288
 
 [4] M. S. Ejaz, M. R. Islam, M. Sifatullah and A. Sarker, "Implementation of Principal Component Analysis on Masked and Non-masked Face Recognition," 2019 1st International Conference on Advances in Science, Engineering and Robotics Technology (ICASERT), Dhaka, Bangladesh, 2019, pp. 1-5, doi: 10.1109/ICASERT.2019.8934543.
+
+[5] Ali Waqas. (June, 2020). “course-project-mask-detection”. Retrieve from: https://jovian.ai/aliwaqas333/course-project-mask-detection
