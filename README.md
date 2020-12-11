@@ -62,10 +62,6 @@ In the second phase, the trained neural model is then deployed to capture real-t
 <p>Figure 4: 6 convolutional, 2 max pooling and fully connected layer neural network with Sigmoid activation</p>
 </div>
 
-## Best Performing Model
-
-## Other Models
-
 ## Results and Conclusion
 
 <p float="center">
@@ -78,6 +74,8 @@ In the second phase, the trained neural model is then deployed to capture real-t
 <p>Figure 5: Loss, Accuracy, Predictions on Test Data using Model-1</p>
 </div>
 
+
+
 <p float="center">
   <img src="221.png" width="300" />
   <img src="222.png" width="300" />
@@ -88,6 +86,9 @@ In the second phase, the trained neural model is then deployed to capture real-t
 <p>Figure 6: Loss, Accuracy, Predictions on Test Data using Model-2</p>
 </div>
 
+
+
+
 <p float="center">
   <img src="331.png" width="300" />
   <img src="332.png" width="300" />
@@ -97,6 +98,9 @@ In the second phase, the trained neural model is then deployed to capture real-t
 <div align="center">
 <p>Figure 7: Loss, Accuracy, Predictions on Test Data using Model-3</p>
 </div>
+
+
+
 
 ## References
 
