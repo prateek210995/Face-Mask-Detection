@@ -64,7 +64,7 @@ In the second phase, the trained neural model is then deployed to capture real-t
 
 ## Results and Conclusion
 
-The models are trained using 10k image samples, validated on 8k image samples and tested on 992 image samples. The models are trained with 10 epochs using learning rate of 1e-3.
+The models are trained using 10k image samples, validated on 800 image samples and tested on 992 image samples. The models are trained with 10 epochs using learning rate of 1e-3.
 
 <p float="center">
   <img src="111.png" width="300" />
@@ -77,7 +77,7 @@ The models are trained using 10k image samples, validated on 8k image samples an
 </div>
 
 
-The accuarcy of Model-1 on the validation dataset is 0.99 and validation loss is 0.02. The accuracy on the test dataset is 0.96. The true positives of the model are 508, true negative is 441. False positive is 1 false negative is 42. From Figure 6, the accuracy remained stable after epoch 7. 
+The accuarcy of Model-1 on the validation dataset is 0.99 and validation loss is 0.02. The accuracy on the test dataset is 0.96. The true positives of the model are 508, true negatives are 441. False positive is 1 and false negatives are 42. From Figure 6, the accuracy remained stable after epoch 7. 
 
 <p float="center">
   <img src="221.png" width="300" />
@@ -90,7 +90,7 @@ The accuarcy of Model-1 on the validation dataset is 0.99 and validation loss is
 </div>
 
 
-The accuarcy of Model-2 on the validation dataset is 0.98 and validation loss is 0.04. The accuracy on the test dataset is 0.90. The true positive of the model are 420, true negative is 474. False positive is 89 and false negative is 9. The flase positives obtained from this model are higher when compared to previous model. From which we can conclude that Model-1 performed better than Model-2.
+The accuarcy of Model-2 on the validation dataset is 0.98 and validation loss is 0.04. The accuracy on the test dataset is 0.90. The true positive of the model are 420, true negatives are 474. False positives are 89 and false negatives are 9. The flase positives obtained from this model are higher when compared to previous model. From which we can conclude that Model-1 performed better than Model-2.
 
 <p float="center">
   <img src="331.png" width="300" />
