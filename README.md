@@ -77,7 +77,7 @@ The models are trained using 10k image samples, validated on 800 image samples a
 </div>
 
 
-The accuarcy of Model-1 on the validation dataset is 0.99 and validation loss is 0.02. The accuracy on the test dataset is 0.96. The true positives of the model are 508, true negatives are 441. False positive is 1 and false negatives are 42. From Figure 6, the accuracy remained stable after epoch 7. 
+The accuarcy of Model-1 on the validation dataset is 0.99 and validation loss is 0.02. The accuracy on the test dataset is 0.96. The true positives of the model are 508, true negatives are 441, false positive is 1, and false negatives are 42. From Figure 5, the accuracy remained stable after epoch 7. 
 
 <p float="center">
   <img src="221.png" width="300" />
@@ -90,7 +90,7 @@ The accuarcy of Model-1 on the validation dataset is 0.99 and validation loss is
 </div>
 
 
-The accuarcy of Model-2 on the validation dataset is 0.98 and validation loss is 0.04. The accuracy on the test dataset is 0.90. The true positive of the model are 420, true negatives are 474. False positives are 89 and false negatives are 9. The flase positives obtained from this model are higher when compared to previous model. From which we can conclude that Model-1 performed better than Model-2.
+The accuarcy of Model-2 on the validation dataset is 0.98 and validation loss is 0.04. The accuracy on the test dataset is 0.90. The true positive of the model are 420, true negatives are 474, false positives are 89, and false negatives are 9. The false positives obtained from this model are higher when compared to Model-1. From which we can conclude that Model-1 performed better than Model-2.
 
 <p float="center">
   <img src="331.png" width="300" />
@@ -103,7 +103,7 @@ The accuarcy of Model-2 on the validation dataset is 0.98 and validation loss is
 </div>
 
 
-The accuarcy of Model-3 on the validation dataset is 0.99 and validation loss is 0.02. The accuracy on the test dataset is 0.97. The true positives of the model are 480, true negatives are 483. False positive are 29 and false negatives are 0. When Model-1 and Model-3 are compared, the accuracy of Model-1 is less than Model-3, but Model-1 has less false positives as compared to Model-2. So, it can be concluded Model-1 has performed comparitively better than Model-3.
+The accuarcy of Model-3 on the validation dataset is 0.99 and validation loss is 0.02. The accuracy on the test dataset is 0.97. The true positives of the model are 480, true negatives are 483, false positive are 29, and false negatives are 0. When Model-1 and Model-3 are compared, the accuracy of Model-1 is less than Model-3, but Model-1 has less false positives as compared to Model-2. So, it can be concluded Model-1 has performed comparitively better than Model-3. Model-1 is the best performing model.
 
 ## References
 
