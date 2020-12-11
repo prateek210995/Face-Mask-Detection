@@ -46,7 +46,7 @@ Model-2 follows the same training and real-time video detection steps as Model-1
 
 ### Model-3:
 
-![](Model%203.png)
+![](Model3.png)
 
 Similarly, Model-3 has the same procedural steps as Model-1 and Model-2. However, it is built with six convolutional layers, six BatchNorm2D layers, two ReLU layers, two max pooling layers and a fully connected neural layer.
 
