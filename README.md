@@ -68,6 +68,13 @@ In the second phase, the trained neural model is then deployed to capture real-t
 
 ## Results and Conclusion
 
+<p float="left">
+  <img src="111.png" width="100" />
+  <img src="112.png" width="100" /> 
+  <img src="113.png" width="100" />
+</p>
+
+
 <div align="center">
 <img src=111.png>
 <p>Figure 5: </p>
