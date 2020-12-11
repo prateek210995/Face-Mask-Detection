@@ -68,6 +68,52 @@ In the second phase, the trained neural model is then deployed to capture real-t
 
 ## Results and Conclusion
 
+<div align="center">
+<img src=111.png>
+<p>Figure 5: </p>
+</div>
+
+<div align="center">
+<img src=112.png>
+<p>Figure 6: </p>
+</div>
+
+<div align="center">
+<img src=112.png>
+<p>Figure 7: </p>
+</div>
+
+<div align="center">
+<img src=221.png>
+<p>Figure 8: </p>
+</div>
+
+<div align="center">
+<img src=222.png>
+<p>Figure 9: </p>
+</div>
+
+<div align="center">
+<img src=223.png>
+<p>Figure 10: </p>
+</div>
+
+<div align="center">
+<img src=311.png>
+<p>Figure 11: </p>
+</div>
+
+<div align="center">
+<img src=332.png>
+<p>Figure 12: </p>
+</div>
+
+<div align="center">
+<img src=333.png>
+<p>Figure 12: </p>
+</div>
+
+
 ## References
 
 [1] Chavda, Amit & Dsouza, Jason & Badgujar, Sumeet & Damani, Ankit. (2020). Multi-Stage CNN Architecture for Face Mask Detection.
