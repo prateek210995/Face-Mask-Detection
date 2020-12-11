@@ -22,14 +22,10 @@ Dataset can be found [**here**.](https://www.kaggle.com/ashishjangra27/face-mask
 
 Sample Dataset: 
 
-![](Sample%20Dataset.png)
-
 <div align="center">
 <img src=Sample%20Dataset.png>
 <p>Figure 1: Sample images from the image dataset</p>
 </div>
-
-Figure 1: Sample images from the image dataset
 
 ## Convolutional Neural Network (CNN)
 
@@ -52,18 +48,19 @@ In the second phase, the trained neural model is then deployed to capture real-t
 <p>Figure 2: Simple single layer convolutional neural network</p>
 </div>
 
-![](Model%201.png)
-Figure 2: Simple single layer convolutional neural network
-
 ### Model-2:
 
-![](Model%202.png)
-Figure 3: 4 convolutional, 2 max pooling and fully connected layer neural network
+<div align="center">
+<img src=Model%202.png >
+<p>Figure 3: 4 convolutional, 2 max pooling and fully connected layer neural network</p>
+</div>
 
 ### Model-3:
 
-![](Model3.png)
-Figure 4: 6 convolutional, 2 max pooling and fully connected layer neural network with Sigmoid activation
+<div align="center">
+<img src=Model3.png >
+<p>Figure 4: 6 convolutional, 2 max pooling and fully connected layer neural network with Sigmoid activation</p>
+</div>
 
 ## Best Performing Model
 
