@@ -103,7 +103,7 @@ The accuarcy of Model-2 on the validation dataset is 0.98 and validation loss is
 </div>
 
 
-The accuarcy of Model-3 on the validation dataset is 0.99 and validation loss is 0.02. The accuracy on the test dataset is 0.97. The true positives of the model are 480, true negatives are 483, false positive are 29, and false negatives are 0. When Model-1 and Model-3 are compared, the accuracy of Model-1 is less than Model-3, but Model-1 has less false positives as compared to Model-2. So, it can be concluded that Model-1 has performed comparitively better than Model-3.
+The accuarcy of Model-3 on the validation dataset is 0.99 and validation loss is 0.02. The accuracy on the test dataset is 0.97. The true positives of the model are 480, true negatives are 483, false positive are 29, and false negatives are 0. When Model-1 and Model-3 are compared, the accuracy of Model-1 is less than Model-3, but Model-1 has less false positives as compared to Model-2. Hence, it can be concluded that Model-1 has performed comparitively better than Model-3.
 
 Model-2 and Model-3 are complex models and have more number of neural layers. Whereas, Model-1 is the simplest with a single convolutional layer. So, it can be concluded that to achive best accuracy it is not always the case that complex models give best results.  Model-1 is the best performing model.
 
