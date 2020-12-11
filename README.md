@@ -74,7 +74,8 @@ In the second phase, the trained neural model is then deployed to capture real-t
 <p>Figure 5: Loss, Accuracy, Predictions on Test Data using Model-1</p>
 </div>
 
-
+[[508, 1]
+[42, 441]]
 
 <p float="center">
   <img src="221.png" width="300" />
