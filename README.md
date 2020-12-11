@@ -17,7 +17,9 @@ Face Mask Dataset is taken from the Kaggle site. The dataset consists of images 
 Data source can be found ![**here**.](https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset)
 
 Sample Dataset: 
-----Image----
+
+![](Sample%20Dataset.png)
+
 ## Convolutional Neural Network (CNN)
 
 Convolutional Neural Network (CNN) is a deep learning algorithm which is applied to visualize the images. CNNs are more of a regularized class of multilayer perceptrons. CNNs are specialized type of neural networks that employs convolution operations instead of matrix multiplication at least in one CNN’s layers. CNN consists of input, output, and hidden layer. The hidden layer consists of convolutional layer that convolves either multiplication or dot product. The input image given to CNN is assigned weights and biases to different aspects of input, based on which network can make differentiations one from another. The major role of ConvNet is to reduce the image size into a shape that is easy to process, without the loss of image critical features for making better prediction. Every neuron in one layer is connected to every neuron in another layer in a fully connected layer. CNN is basically designed to work with two-dimensional image data, although it can be used with one- and three-dimensional images.
@@ -38,13 +40,13 @@ In the second phase, the trained neural model is then deployed to capture real-t
 
 ### Model-2:
 
----Image---
+![](Model%202.png)
 
 Model-2 follows the same training and real-time video detection steps as Model-1. Model-2 consists of four convolutional layers, four ReLU layers, two max pooling layers, and a fully connected neural layer. This model is built without BatchNorm2D layer.
 
 ### Model-3:
 
----Image---
+![](Model%203.png)
 
 Similarly, Model-3 has the same procedural steps as Model-1 and Model-2. However, it is built with six convolutional layers, six BatchNorm2D layers, two ReLU layers, two max pooling layers and a fully connected neural layer.
 
