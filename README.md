@@ -23,6 +23,12 @@ Dataset can be found [**here**.](https://www.kaggle.com/ashishjangra27/face-mask
 Sample Dataset: 
 
 ![](Sample%20Dataset.png)
+
+<div align="center">
+<img src=Sample%20Dataset.png>
+<p>Figure 1: Sample images from the image dataset</p>
+</div>
+
 Figure 1: Sample images from the image dataset
 
 ## Convolutional Neural Network (CNN)
@@ -40,6 +46,11 @@ OpenCV (Open Source Computer Vision) is a computer vision and machine learning l
 In the first phase, Model 1 is trained on face mask image dataset using a single convolutional neural layer. The image data is preprocessed by transforming it to tensors and performed normalization before feeding to the neural model. The processed data passed to convolutional layer creates feature map that summarizes detected features in the input. BatchNorm2D calculates mean and variance of input features and does normalization. Further, outputs are passed through Rectified Linear Unit (ReLU) activation function. It is the most used activation function. ReLU helps neural model to learn faster and perform better by overcoming the problem of vanishing gradient. This function allows model to account for non-linearities and interactions. And then it is passed through MaxPool2D layer. This layer takes the maximum value over window defined with pool size for individual dimension along with the feature axis. Next, output of MaxPool2D layer is parsed through fully connected neural layer consisting of flatten, linear and ReLU layer. This layer flattens and applies weights outputting probabilities that determines whether the input image is WithMask or WithoutMask. 
 
 In the second phase, the trained neural model is then deployed to capture real-time video and make analysis using OpenCV which is a computer vision and machine learning library. Here, the video is analyzed to detect if a person is wearing mask or not. Model-2 follows the same training and real-time video detection steps as Model-1. Model-2 consists of four convolutional layers, four ReLU layers, two max pooling layers, and a fully connected neural layer. This model is built without BatchNorm2D layer. Similarly, Model-3 has the same procedural steps as Model-1 and Model-2. However, it is built with six convolutional layers, six BatchNorm2D layers, two ReLU layers, two max pooling layers and a fully connected neural layer.
+
+<div align="center">
+<img src=Model%201.png >
+<p>Figure 2: Simple single layer convolutional neural network</p>
+</div>
 
 ![](Model%201.png)
 Figure 2: Simple single layer convolutional neural network
