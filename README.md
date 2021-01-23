@@ -62,6 +62,12 @@ In the second phase, the trained neural model is then deployed to capture real-t
 <p>Figure 4: 6 convolutional, 2 max pooling and fully connected layer neural network with Sigmoid activation</p>
 </div>
 
+### Saved Models (*.pth)
+
+[Model 1](https://drive.google.com/file/d/1VRm9dqkaVHw0PJYf3d8V8DyOo5Aa5qnT/view?usp=sharing)
+[Model 2](https://drive.google.com/file/d/1X0RdyDB28aFV0vkUBjj-rMQPOeSoOlno/view?usp=sharing)
+[Model 3](https://drive.google.com/file/d/1Ue59qck_VeDcwqY59bbW627mvm-R5PHt/view?usp=sharing)
+
 ## Results and Conclusion
 
 The models are trained using 10k image samples, validated on 800 image samples and tested on 992 image samples. The models are trained with 10 epochs using learning rate of 1e-3.
